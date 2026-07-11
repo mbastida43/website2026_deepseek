@@ -14,7 +14,7 @@ const CardsSection = () => {
       title: "DevSecOps",
       icon: "🛡",
       accentColor: "#3b82f6",
-      description: "Integração de segurança no ciclo de desenvolvimento, análise estática e dinâmica de código, gestão de vulnerabilidades, compliance e políticas de segurança automatizadas. Proteção de dados e infraestrutura em todas as camadas."
+      description: "Integração de segurança no ciclo de desenvolvimento, análise estática e dinâmica de código, experiência com ferramentas SAST como SonarQube, mitigação de CVEs como Docker Scout e Trivy, gestão de vulnerabilidades, compliance e políticas de segurança automatizadas. Proteção de dados e infraestrutura em todas as camadas."
     },
     {
       title: "AI",
