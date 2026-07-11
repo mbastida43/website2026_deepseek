@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import CardsSection from './components/CardsSection';
+import CultureSection from './components/CultureSection';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <div className="content">
         <Header />
         <CardsSection />
+        <CultureSection />
       </div>
     </div>
   );
