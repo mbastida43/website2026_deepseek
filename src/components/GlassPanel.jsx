@@ -1,7 +1,7 @@
 import React from 'react';
 import './GlassPanel.css';
 
-const GlassPanel = ({ title, icon, description, accentColor }) => {
+const GlassPanel = ({ title, icon, description, accentColor, children }) => {
   return (
     <div className="glass-panel" style={{ '--accent-color': accentColor }}>
       <div className="glass-panel-inner">
@@ -15,7 +15,7 @@ const GlassPanel = ({ title, icon, description, accentColor }) => {
         </div>
         
         <div className="panel-content">
-          <p className="panel-description">{description}</p>
+          {children ? children : <p className="panel-description">{description}</p>}
         </div>
         
         <div className="panel-reflection"></div>

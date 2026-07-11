@@ -2,7 +2,6 @@
   padding: 3rem 1rem 4rem;
   max-width: 900px;
   margin: 0 auto;
-  text-align: center;
 }
 
 .divider {
@@ -12,35 +11,23 @@
   margin-bottom: 3rem;
 }
 
-.culture-title {
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 1.5rem;
-  letter-spacing: 1px;
+.culture-text {
+  text-align: left;
+  line-height: 1.8;
 }
 
-.culture-text {
-  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
-  color: rgba(255, 255, 255, 0.6);
-  line-height: 2;
-  font-weight: 300;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
+.culture-text p {
+  margin-bottom: 0.8rem;
 }
 
 @media (max-width: 768px) {
   .culture-section {
     padding: 2rem 1rem 3rem;
   }
-  
-  .culture-text {
-    text-align: center;
-    line-height: 1.8;
-  }
-  
   .divider {
     margin-bottom: 2rem;
+  }
+  .culture-text {
+    text-align: center;
   }
 }
