@@ -8,7 +8,7 @@ const CardsSection = () => {
       title: "DevOps",
       icon: "∞",
       accentColor: "#6366f1",
-      description: "Automação de pipelines CI/CD, infraestrutura como código, containerização com Docker e Kubernetes, monitoramento e observabilidade. Otimização de deploy e entrega contínua para aplicações de alta disponibilidade."
+      description: "Automação de pipelines CI/CD com Jenkins, GitLab CI e GitHub Actions, infraestrutura como código, containerização com Docker e Kubernetes, monitoramento e observabilidade com Prometheus e Grafana. Otimização de deploy e entrega contínua para aplicações de alta disponibilidade. Versionamento com Git, Bitbucket e GitHub. Colaboração e gestão com Jira, Teams e Confluence."
     },
     {
       title: "DevSecOps",
