@@ -14,10 +14,16 @@
 .culture-text {
   text-align: left;
   line-height: 1.8;
+  color: #ffffff;
 }
 
 .culture-text p {
   margin-bottom: 0.8rem;
+  color: #ffffff;
+}
+
+.culture-text strong {
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
