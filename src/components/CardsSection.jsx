@@ -20,7 +20,7 @@ const CardsSection = () => {
       title: "AI",
       icon: "✦",
       accentColor: "#8b5cf6",
-      description: "Implementação de soluções de inteligência artificial e machine learning, processamento de linguagem natural, automação inteligente, análise preditiva e integração de APIs de IA generativa para aplicações modernas."
+      description: "Implementação de soluções de inteligência artificial com IA generativa utilizando Claude Code num projeto de implementação de App Android para limpeza de emails Gmail com OAuth2, utilização do Gemini para generative AI para imagens, criação de Notebooks e um projeto para mitigar vulnerabilidades em aplicações SaaS."
     }
   ];
 
