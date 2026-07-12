@@ -5,61 +5,98 @@
 ![CSS3](https://img.shields.io/badge/CSS3-Modern-1572B6?logo=css3)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Landing page profissional com efeito **glassmorphism** realista, desenvolvida em React. Apresenta painéis translúcidos com efeito de vidro, design responsivo e animações suaves.
+Landing page profissional com efeito glassmorphism, desenvolvida em React. O projeto apresenta uma interface moderna, com elementos translúcidos, animações suaves e uma seção de contato com formulário.
 
 ---
 
 ## 📸 Preview
 
-A página conta com:
+A página inclui:
 
-- **Background dinâmico** com orbs gradientes animados e grid pattern
-- **Header** com nome e cargo em destaque (texto com gradiente animado)
-- **3 Painéis de vidro** (glassmorphism) com efeitos hover:
-  - **DevOps** - Automação CI/CD, containers, orquestração
-  - **DevSecOps** - Segurança integrada ao ciclo de desenvolvimento
-  - **AI** - Inteligência Artificial e Machine Learning
-- **Tags de tecnologia** com efeito hover
-- **Totalmente responsivo** (Desktop, Tablet, Smartphone)
+- Background dinâmico com orbs gradientes animados e grid pattern
+- Header com nome, cargo e botão de acesso ao contato
+- Seção de cards com conteúdo em estilo glassmorphism
+- Seção de cultura/identidade do projeto
+- Página de contato com formulário para nome, e-mail, assunto e botão Enviar
+- Layout responsivo para desktop, tablet e celular
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-| Tecnologia       | Descrição                              |
-|------------------|----------------------------------------|
-| React 18         | Biblioteca JavaScript para UI          |
-| CSS3 Moderno     | Glassmorphism, Grid, Flexbox, Animações|
-| HTML5 Semântico  | Estrutura acessível e SEO-friendly     |
-| Google Fonts     | Fonte Inter (tipografia moderna)       |
-
-### Técnicas Avançadas Aplicadas
-
-- **Glassmorphism**: `backdrop-filter: blur()` com bordas e reflexos
-- **Animações GPU-accelerated**: `transform` e `opacity` para performance
-- **CSS Grid Responsivo**: Layout adaptativo sem media queries complexas
-- **Gradientes Animados**: Efeito shimmer no texto principal
-- **CSS Custom Properties**: Variáveis para cores dinâmicas por painel
+- React 18
+- React Router DOM
+- CSS3 moderno
+- HTML5 semântico
+- JavaScript ES6+
 
 ---
 
 ## 📁 Estrutura do Projeto
 
-landing-page-glass/
+```text
+website2026_deepseek/
+├── LICENSE.md
+├── package.json
+├── package-lock.json
+├── README.md
+├── run-website.ps1
 ├── public/
-│   └── index.html              # HTML base + Google Fonts
-├── src/
-│   ├── components/
-│   │   ├── CardsSection.jsx    # Seção com os 3 painéis
-│   │   ├── CardsSection.css    # Grid responsivo + animações
-│   │   ├── GlassPanel.jsx      # Componente do painel de vidro
-│   │   ├── GlassPanel.css      # Efeito glassmorphism + hover
-│   │   ├── Header.jsx          # Cabeçalho com nome e cargo
-│   │   └── Header.css          # Gradientes, tags, animações
-│   ├── App.jsx                 # Componente principal
-│   ├── App.css                 # Background animado + orbs
-│   ├── index.js                # Ponto de entrada React
-│   └── index.css               # Reset global + fonte base
-├── package.json                # Dependências e scripts
-├── run-website.ps1             # Script PowerShell para setup automático
-└── README.md                   # Este arquivo
+│   └── index.html
+└── src/
+    ├── App.css
+    ├── App.jsx
+    ├── index.css
+    ├── index.js
+    └── components/
+        ├── CardsSection.css
+        ├── CardsSection.jsx
+        ├── ContactPage.css
+        ├── ContactPage.jsx
+        ├── CultureSection.css
+        ├── CultureSection.jsx
+        ├── GlassPanel.css
+        ├── GlassPanel.jsx
+        ├── Header.css
+        └── Header.jsx
+```
+
+## 📄 Arquivos e Função
+
+- LICENSE.md: arquivo de licença do projeto.
+- package.json: define as dependências, scripts e configuração do projeto React.
+- package-lock.json: lockfile gerado automaticamente para garantir versões consistentes das dependências.
+- README.md: documentação do projeto.
+- run-website.ps1: script PowerShell para facilitar a execução da aplicação no Windows.
+- public/index.html: arquivo HTML principal usado como ponto de entrada da aplicação no navegador.
+- src/App.jsx: componente principal que define as rotas da aplicação e organiza as páginas.
+- src/App.css: estilos globais da aplicação, incluindo fundo animado, orbs e layout geral.
+- src/index.js: ponto de entrada do React que renderiza a aplicação na DOM.
+- src/index.css: estilos base e resets globais.
+- src/components/CardsSection.jsx: componente responsável pela seção de cards da landing page.
+- src/components/CardsSection.css: estilos da seção de cards.
+- src/components/ContactPage.jsx: página de contato com formulário de nome, e-mail, assunto e botão Enviar.
+- src/components/ContactPage.css: estilos da página de contato.
+- src/components/CultureSection.jsx: componente da seção de cultura/identidade da página.
+- src/components/CultureSection.css: estilos da seção de cultura.
+- src/components/GlassPanel.jsx: componente reutilizável para os painéis com efeito glassmorphism.
+- src/components/GlassPanel.css: estilos do componente de painel em vidro.
+- src/components/Header.jsx: cabeçalho principal com nome, cargo e link para a página de contato.
+- src/components/Header.css: estilos do cabeçalho e dos botões de ação.
+
+---
+
+## ▶️ Como Executar
+
+No diretório do projeto, rode:
+
+```bash
+npm install
+npm start
+```
+
+Ou, no Windows, você pode usar:
+
+```powershell
+./run-website.ps1
+```
